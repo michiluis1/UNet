@@ -3,6 +3,19 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# --- Custom UNet Project Additions ---
+
+# Ignore the massive image dataset
+data/
+Results/
+
+# Ignore saved model weights and checkpoints
+*.pth
+*.pt
+*.h5
+*.hdf5
+*.ckpt
+
 # C extensions
 *.so
 
